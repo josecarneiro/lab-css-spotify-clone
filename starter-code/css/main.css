@@ -19,20 +19,23 @@ body {
 /* I have no idea why I need to set this to get the navbar to flow 
 into the hero image */
 header {
-    height: 30px;
+    height: 50px;
+}
+
+p {
+    font-size: 1.8em;
+    font-weight: 300;    
 }
 
 nav {
-    height: 70px;
-    /* background-color: #00B172; */
+    height: 100px;
     display: flex;
-    /* flex-flow: row; */
     justify-content: space-between;
     align-items: center;
 }
 
 #logo {
-    height: 54px;
+    height: 64px;
     width: auto;
     margin-left: 30px;
     margin-top: 5px;
@@ -40,10 +43,10 @@ nav {
 
 nav ul {
     list-style: none;
-    width: 30%;
+    width: 35%;
     display: flex;
     justify-content: space-between;
-    font-size: 1.1em;
+    font-size: 1.5em;
     font-weight: 400;
     margin-right: 30px;
 }
@@ -53,12 +56,9 @@ a {
     color: #1A1A1A;
 }
 
-.content-boxes {
-    height: 600px;
-    text-align: center;
-}
-
 #premium {
+    height: 850px;
+    text-align: center;
     margin: 0px;
     padding: 0px;
     background-image: url("../images/landing.jpg");
@@ -71,34 +71,45 @@ a {
 }
 
 #premium h1 {
-    font-size: 4em;
-    padding-top: 300px;
+    font-size: 5em;
+    padding-top: 280px;
+    margin-bottom: 30px;
 }
 
 #premium p {
-    font-size: 1.5em;
-    font-weight: 300;
-    width: 50%;
-    margin: 0 auto;
+    width: 52%;
+    margin: 0 auto;    
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 2.5em;
+    text-align: center;
 }
 
 h2 span {
-    border-bottom: 3px solid #00B172;
+    border-bottom: 4px solid #00B172;
+}
+
+#discover {
+    height: 550px;
 }
 
 #discover-info {
     display: flex;
     justify-content: space-around;
     margin-top: 100px;
+    text-align: center;
 }
+
+#discover-info p {
+    font-size: 1.6em;
+    font-weight: 300;
+}
+
 #discover-info img {
-    height: 90px;
+    height: 120px;
     width: auto;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 #discover-info > div {
@@ -106,8 +117,8 @@ h2 span {
 }
 
 h3 {
-    font-size: 1.3em;
-    font-weight: 700;
+    font-size: 2em;
+    font-weight: 800;
 }
 
 #discover-info h3 {
@@ -115,13 +126,28 @@ h3 {
 }
 
 #kanye {
+    height: 768px;
     width: 94%;
     margin: 0 auto 25px auto;
     background-color: #00B172;
     padding-top: 30px;
     color: #FFF;
     text-align: left;
-    
+    background-image: url(../images/spotify-icon-white.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 128px;
+}
+
+#kanye h2 {
+    padding-top: 20px;
+    padding-left: 1.5em;
+    text-align: left;
+}
+
+#kanye h2 span {
+    border-bottom: 3px solid #FFF;
+    margin-left: 50px;
 }
 
 #kanye-content {
@@ -131,34 +157,26 @@ h3 {
     flex-wrap: nowrap;
 }
 
-#kanye h2 span {
-    border-bottom: 3px solid #FFF;
-    margin-left: 50px;
-}
-
 #kanye h3 {
     color: #FFF;
+    font-size: ;
 }
 
 
 #kanye > div > div {
-    width: 26%;
-    /* margin: 20px auto; */
+    width: 33%;
 }
 
-#spotify-icon-white {
-    position: relative;
-    left: 60px;
-    /* align-items: center; */
-    width: 10%;
-    height: auto;
-    /* margin: 20px auto; */
-    /* padding-left: 40px; */
+#kanye p {
+    font-size: 1.5em;
+    font-weight: 300;
 }
 
 #spotify-app {
-    width: 25%;
-    height: auto;
+    position: relative;
+    bottom: 60px;
+    height: 600px;
+    width: auto;
     padding-left: 80px;
     /* margin: 20px auto; */
 }
