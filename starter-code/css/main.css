@@ -13,24 +13,31 @@ body {
 }
 
 .navbar {
-    background-color: #FFF;
-    position: fixed;
-    height: 50px;
     display: flex;
+    background-color: #FFF;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    position: fixed;
+    top: 0;
+    align-items: center;
 }
 
 .navbar img {
     display: flex;
-    justify-content: left;
-    width: 10%;
+    width: 15%;
+    padding: 0 20px;
 }
 
-.navbar ul {
+.ulNav {
     display: flex;
     flex-direction: row;
-    justify-content: right;
+    justify-content: space-around;
+    width: 400px;
     list-style-type: none;
-    font-size: 25px;
+    padding: 0 20px;
+    font-size: 20px;
 }
 
 /* ---------------------------------------------------------------------------------------------------- */
@@ -38,10 +45,22 @@ body {
 
 .section1 {
     background-image: url(../images/landing.jpg);
+    background-size: 100%;
     color: #FFF;
-    height: 600px;
+    height: 700px;
+    width: 100%;
+    padding: 100px 0 0 0;
+    text-align: center;
 }
 
+.section1 h1 {
+    font-size: 80px;
+    padding: 120px 0 0 0;
+}
+
+.section1 p {
+    font-size: 25px;
+}
 
 
 /* ---------------------------------------------------------------------------------------------------- */
@@ -49,12 +68,14 @@ body {
 
 
 .section2 h2 {
-    width: 30%;
+    display: flex;
+    justify-content: center;
 }
 
 .section2 hr {
     width: 20%;
     border-color: #00B172;
+    padding: 0;
 }
 
 .icon {
@@ -65,10 +86,59 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
+    padding: 70px 0 0 0;
 }
 
 .section2 h3 {
     color: #00B172
 }
 
+.onSpotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
 /* ---------------------------------------------------------------------------------------------------- */
+
+.section3 {
+    background-color: #00B172;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
+    font-size: 20px;
+    color: white;
+}
+
+.containerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.kanye {
+    font-size: 25px;
+    width: 300px;
+}
+
+hr {
+    border-color: white;
+}
+
+.player {
+    height: 80%;
+    padding: 50px 0 50px 0;
+}
+
+.section3 h3 {
+    font-style: bold;
+}
+
+
+/*
+todo:
+- allign with flex commands, instead of padding (e.g. center)
+- check why selectors don't work anymore (when switching to flex?)
+- decrease margins between flex-items
