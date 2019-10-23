@@ -1,8 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
 /*
 Colors:
 
-Text: 1A1A1A
+Text: #1A1A1A
 Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #1A1A1A;
+    font-family: 'Proxima Nova', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+
+/* I have no idea why I need to set this to get the navbar to flow 
+into the hero image */
+header {
+    height: 30px;
+}
+
+nav {
+    height: 70px;
+    /* background-color: #00B172; */
+    display: flex;
+    /* flex-flow: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    height: 54px;
+    width: auto;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+nav ul {
+    list-style: none;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.content-boxes {
+    height: 600px;
+    text-align: center;
+}
+
+#premium {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/landing.jpg");
+    color: #FFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+#premium h1 {
+    font-size: 4em;
+    padding-top: 300px;
+}
+
+#premium p {
+    font-size: 1.5em;
+    font-weight: 300;
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h2 span {
+    border-bottom: 3px solid #00B172;
+}
+
+#discover-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+#discover-info img {
+    height: 90px;
+    width: auto;
+    margin: 0 auto;
+}
+
+#discover-info > div {
+    width: 20%;
+}
+
+h3 {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+#discover-info h3 {
+    color: #00B172;
+}
+
+#kanye {
+    width: 94%;
+    margin: 0 auto 25px auto;
+    background-color: #00B172;
+    padding-top: 30px;
+    color: #FFF;
+    text-align: left;
+    
+}
+
+#kanye-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#kanye h2 span {
+    border-bottom: 3px solid #FFF;
+    margin-left: 50px;
+}
+
+#kanye h3 {
+    color: #FFF;
+}
+
+
+#kanye > div > div {
+    width: 26%;
+    /* margin: 20px auto; */
+}
+
+#spotify-icon-white {
+    position: relative;
+    left: 60px;
+    /* align-items: center; */
+    width: 10%;
+    height: auto;
+    /* margin: 20px auto; */
+    /* padding-left: 40px; */
+}
+
+#spotify-app {
+    width: 25%;
+    height: auto;
+    padding-left: 80px;
+    /* margin: 20px auto; */
+}
