@@ -1,27 +1,36 @@
-/*
-Colors:
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
-*/
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i&display=swap');
+
+
+:root {
+    --c-text: #1A1A1A;
+    --c-green: #00B172;
+    --c-white: #ffffff;
+}
+
 
 html {
     box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
 }
 
 body {
     margin: 0;
-    padding: 0;
+}
+
+
+p {
+    font-size: 2rem;
 }
 
 header {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    padding: 1rem 0 1rem 0;
+    padding: 1rem 2rem;
+    z-index: 1000;
 }
 
 header .brand {
@@ -35,8 +44,124 @@ header .brand {
 
 nav > ul {
     list-style-type: none;
+    margin-right: 4rem;
 }
 
 nav > ul > li {
     display: inline-block;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero .title {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+}
+
+.hero .title h1 {
+    font-size: 7rem;
+    margin: 0;
+}
+
+.hero .title p {
+    margin: 0;
+}
+
+.what-on-spotify {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.what-on-spotify h2 {
+    font-size: 3rem;
+    border-bottom: solid 6px var(--c-green);
+    padding: 0.6rem 0;
+}
+
+.what-on-spotify .features {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.what-on-spotify .feature {
+    margin: 4rem;
+}
+
+.what-on-spotify .feature img {
+    width: 40%;
+    height: auto;
+}
+
+.what-on-spotify .feature h3 {
+    font-size: 3rem;
+    color: var(--c-green);
+}
+
+.demo {
+    position: relative;
+    background-color: var(--c-green);
+    margin: 3rem;
+    color: var(--c-white);
+}
+
+.logo-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10%;
+}
+
+.row-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 8rem;
+}
+
+.demo h2 {
+    font-size: 3rem;
+    border-bottom: solid 6px;
+    padding: 0.6rem 0;
+}
+
+.col {
+    max-width: 40%;
+}
+
+.col h2 {
+    margin: 0 0 6rem 0;
+}
+
+.col h3{
+    font-size: 2.5rem;
+}
+
+.col p{
+    font-size: 2.5rem;
+}
+
+.col img {
+    max-width: 75%;
+    padding: 8rem;
+}
+
+
+.pb-2rem {
+    padding-bottom: 2rem;
 }
