@@ -6,3 +6,100 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Cabin', sans-serif;;
+  color: #1A1A1A;
+}
+
+.logo-img {
+  width: 10%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-ul li {
+  text-decoration: none;
+  list-style-type: none;
+  color: #1A1A1A;
+  align-content: center;
+  justify-content: space-between;
+}
+
+#header {
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  height: 800px;
+  color: #FFF;
+  align-items: center;
+}
+
+#header h1,
+#header p {
+  display: flex;
+  justify-content: center;
+}
+
+
+.main-title {
+  color: #FFF;
+}
+
+.green-title {
+  color: #00B172;
+}
+
+.on-spotify-container {
+  display:flex;
+  justify-content: space-between;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+#on-spotify h3 {
+  text-decoration-color: #00B172;
+}
+
+#on-spotify img {
+  width: 100px;
+}
+
+#green-section {
+  background-color: #00B172;
+  color: #FFF;
+ /*  position: relative; */
+}
+
+#green-section h3 {
+  text-decoration-color: #FFF;
+}
+
+/* #green-section .green-section-logo {
+  position: absolute;
+} */
+
+.green-section-logo {
+  width: 10%;
+}
+
+.container {
+  display:flex;
+  justify-content: space-between;
+}
