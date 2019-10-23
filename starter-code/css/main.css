@@ -6,3 +6,69 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    color: 1A1A1A;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+    background-color: #FFF;
+    position: fixed;
+    height: 50px;
+    display: flex;
+}
+
+.navbar img {
+    display: flex;
+    justify-content: left;
+    width: 10%;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+.section1 {
+    background-image: url(../images/landing.jpg);
+    color: #FFF;
+    height: 600px;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+.section2 h2 {
+    width: 30%;
+}
+
+.section2 hr {
+    width: 20%;
+    border-color: #00B172;
+}
+
+.icon {
+    height: 60px;
+}
+
+.section2-boxline {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.section2 h3 {
+    color: #00B172
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
