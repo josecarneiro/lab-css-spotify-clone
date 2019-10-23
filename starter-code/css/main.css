@@ -99,19 +99,25 @@ article {
     padding-bottom: 10px;
 }
 
+.second-section div p {
+    color: grey;
+}
+
 .advantages h2 {
     color:  #00B172;
 }
 
 .advantages {
     display: flex;
-    align-content: space-between;
+    align-content: space-around;
     justify-content: center;
     text-align: center;
 }
 
 .advantages > div {
     width: 20%;
+    padding: 60px;
+    margin: 30px 5px;
 }
 
 /* third section */
