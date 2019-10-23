@@ -6,3 +6,192 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+* {
+    font-family: 'Cabin', sans-serif;
+    background: #FFF;
+}
+
+header{
+    padding: 10px 0;
+}
+
+header > div {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+nav {
+    width: 600px;
+}
+  
+div  img {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+  
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#everyone {
+    background-image: url("../images/landing.jpg");
+    background-position: 0 0;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-size: 6em;
+    position: absolute;
+    top: 1em;
+    background: none;
+    text-align: center;
+    color: white;
+}
+
+#everyone p {
+    position: absolute;
+    top: 9em;
+    text-align: center;
+    background: none;
+    color: white;
+    font-size: 2em;
+}
+
+#whatsOn h2 {
+    font-size: 3em;
+    text-align: center
+
+}
+
+#whatsOn img{
+    width: 100px;
+    align-content: center;
+      
+}
+
+#whatsOn > div {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+    text-align: left;
+    margin-top: 20px;
+    height: 400px;
+}
+
+#whatsOn > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: center;
+    width: 250px;
+    padding: 10px;
+    height: 350px;
+} 
+
+#whatsOn hr {
+    width: 33%;
+    margin-top: -30px;
+    border: none;
+    border: 2px solid;
+    
+}
+
+#whatsOn p{
+    font-size: 20px;
+    text-align: center; 
+}
+
+#whatsOn h3 {
+    font-size: 30px;
+    color: #00B172;
+    text-align: center;
+}
+
+#kanye {
+    background-color: #00B172;
+    position: relative;
+    padding: 0 20px;
+    height: 600px;
+    border: 50px;;
+}
+
+#kanye h2 {
+    font-size: 3em;
+    background: none;
+    color: #FFF;
+    padding-top: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+#kanye div {
+    background: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    width: 50%;
+    padding-top: 30px;
+
+}
+
+#kanye hr {
+    width: 580px;
+    position: absolute;
+    top: 80px;
+    left: 24px;
+    color: #FFF;
+    border: 2px solid;
+
+}
+
+#kanye h3 {
+    font-size: 30px;
+}
+
+#kanye p, h3 {
+    background: none;
+    color: #FFF;
+    width: 75%;
+    margin-top: -0.5px;
+    padding-top: 10px;
+}
+
+#kanye img {
+    background: none;
+    position: absolute;
+}
+
+.logowhite {
+    width: 100px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.app {
+    width: 250px;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
