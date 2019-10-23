@@ -6,3 +6,112 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+    outline: 1px solid red;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#nav img {
+    width: 190px;
+}
+
+#nav ul {
+    list-style: none;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav li {
+    margin-left: 50px;
+}
+
+#nav div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#big-image {
+    background: url("../images/landing.jpg");
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#big-image div {
+    color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#big-image h1 {
+    font-size: 3em;
+}
+
+#what-is-on h2 {
+    font-size: 2.3em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: 2px solid;
+    color: green;
+    width: 18%;
+    margin-top: -30px;
+}
+
+#what-is-on img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#what-is-on h4 {
+    color: rgb(25, 209, 138);
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#what-is-on div {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-self: center;
+    margin: 50px 50px 40px; 
+    padding: 50px 30px;
+}
+
+#footer {
+    color: white;
+}
+
+#footer > div {
+    background: rgba(33, 187, 66, 0.918);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kanye img {
+    height: 50%;
+}
+
+
