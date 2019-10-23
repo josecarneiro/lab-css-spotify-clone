@@ -6,3 +6,171 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+.nav-bar {
+    position: fixed;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 10px;
+    top: 0px;
+}
+
+.nav-bar img {
+    height: 45px;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    width: 35%;
+}
+
+.nav-bar li {
+    list-style: none;
+    float: right;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    padding-top: 45px;
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 65%;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main img {
+    height: 700px;
+}
+
+.main h1 {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 300;
+}
+
+.main p {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 0.7em;
+    letter-spacing: 1px;
+}
+
+.under-text {
+    margin-top: -50px;
+    font-weight: 100;
+}
+.second-title {
+    text-align: center;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.second-title h2 {
+    border-bottom: 5px solid #00B172;
+    width: 30%;
+    text-align: center;
+    border-bottom-width: 25%;
+    padding-bottom: 20px;
+}
+
+/* none of my attepmts of centralization worked on these ones, gonna cheat on this one  */
+
+.whats-on {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-right: 10%; 
+}
+
+/* for some reason the boxess were not centralized i added margin right to try and do it */
+
+.container {
+    width: 30%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    width: 150px;
+    align-self: center;
+}
+
+.container h3 {
+    color: #00B172;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.container p {
+    font-size: 1.5em;
+    font-weight: 200;
+    width: 200px;
+
+}
+
+.app-ad {
+    background-color: #00B172;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-image: url(../images/spotify-icon-white.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding-top: 50px;
+    margin: 20px 50px 50px 50px;
+    height: 800px;
+    font-size: 1.2em;
+}
+
+
+.app-ad img {
+    height: 90%;
+    padding-left: 30%;
+}
+/* 
+.abs-icon {
+    position: absolute;
+} */
+
+.app-ad h3 {
+    color: white;
+    border-bottom: 4px solid white;
+    width: fit-content;
+    font-size: 1.7em;
+    letter-spacing: 0.3em;
+}
+
+.app-ad p {
+    margin-right: 30%;
+}
