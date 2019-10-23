@@ -6,3 +6,146 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 150;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+/* images first */
+.spotify-logo {
+    height:70px;
+    margin: 10px;
+    display:block;
+}
+
+.logo {
+    height: 130px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spotify-app {
+    height: 700px;
+    display:block;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/*header styling */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+    height: 100px;
+    align-content: center;
+}
+
+header ul {
+    list-style-type: none;
+    font-size: 1.5em;
+    display: flex;
+}
+
+header ul li {
+    padding: 10px;
+}
+
+/*introduction styling*/
+
+.introduction {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+article {
+    font-size: 2em;
+    font-weight: 100;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+/*2nd section*/
+
+.second-section > h2 {    
+    text-align: center;
+}
+
+.second-section > h2 span {
+    border-bottom: 4px solid #00B172;
+    padding-bottom: 10px;
+}
+
+.advantages h2 {
+    color:  #00B172;
+}
+
+.advantages {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    text-align: center;
+}
+
+.advantages > div {
+    width: 20%;
+}
+
+/* third section */
+
+.third-section {
+    background-color: #00B172;
+    color: white;
+    margin: 20px;
+}
+
+.third-section > h2 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.third-section > h2 span {
+border-bottom: 4px solid white;
+padding-bottom: 10px;
+}
+
+.last-section {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+
+.last-points {
+    width: 33%;
+}
+    
+
+
+
+
