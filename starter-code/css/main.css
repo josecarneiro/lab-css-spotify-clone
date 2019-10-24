@@ -6,3 +6,189 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,700&display=swap');
+
+* {
+    font-family: Cabin, sans-serif;
+    color: #1A1A1A;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    font-weight: 700;
+}
+
+h2 {
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 400;
+}
+
+h3 {
+    color: #00B172;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #e3e3e3;
+}
+
+.navbar img {
+    height: 60px;
+}
+
+.navbar>.nav {
+    align-self: flex-end;
+}
+
+nav>a {
+    color: #1A1A1A;
+    font-size: 1.35em;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+header {
+    background: url("./../images/landing.jpg");
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    margin: 50px auto 0 auto;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+header div {
+    color: white;
+    width: 70%;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+}
+
+.features {
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.features>h2 {
+    display: inline;
+    color: #1A1A1A;
+    font-weight: 900;
+    border-bottom: 3px solid #00B172;
+    padding: 30px 0 5px 0;
+    margin: 60px auto 30px auto;
+}
+
+.featuresList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 40px 50px 20px 50px;
+    box-sizing: border-box;
+}
+
+.featuresList article {
+    padding: 30px;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-flow: column;
+}
+
+.featuresList article img {
+    height: 120px;
+}
+
+.featuresList article p {
+    margin-bottom: 0;
+    font-size: 1.4em;
+    font-weight: 400;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.yeezy {
+    background-color: #00B172;
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-flow: row;
+    background: center 50% no-repeat url("../images/spotify-icon-white.png") #00B172;
+    background-size: 150px;
+}
+
+.yeezy>div:first-child {
+    width: 60%;
+    text-align: left;
+    padding: 30px;
+}
+
+.yeezy>div:last-child {
+    width: 40%;
+}
+
+.yeezy img {
+    width: 60%;
+}
+
+.yeezy h2 {
+    color: white;
+    font-weight: 700;
+    display: inline;
+    border-bottom: 3px solid white;
+    font-size: 3em;
+}
+
+.yeezy h3 {
+    color: white;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.yeezy div > article:first-of-type > h3{
+    margin-top: 100px;
+}
+
+.yeezy p {
+    color: white;
+    font-weight: 100;
+    font-size: 1.4em;
+    width: 50%;
+    font-family: Helvetica, sans-serif;
+}
