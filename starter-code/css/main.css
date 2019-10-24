@@ -6,3 +6,12 @@ Green: #00B172
 White: #FFF
 
 */
+ 
+nav {
+position: fixed;    
+background-image : url("/starter-code/images/spotify-logo.png");
+float: left;
+ul {
+    float: right;
+}
+}
