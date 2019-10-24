@@ -6,3 +6,71 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #1A1A1A;
+    border: 0px;
+    padding: 0%;
+    margin: 0px;
+    font-family: 'Cabin', sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/landing.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    list-style: none;
+}
+
+#logo {
+    width: 10%;
+    padding: 10px;
+}
+
+
+
+#billboard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    color: white;
+
+}
+
+#billboard > h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 5rem;
+}
+
+#billboard > p {
+    
+    font-size: 2rem;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
