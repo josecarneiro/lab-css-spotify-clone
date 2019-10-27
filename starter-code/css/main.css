@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: “Cabin”, sans-serif;
 }
 /*
 Colors:
@@ -32,15 +33,16 @@ nav {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
 }
 
 header {
     background-image: url("../images/landing.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 800px;
     position: relative;
 
 }
@@ -52,17 +54,95 @@ header {
     padding-top: 250px;
 }
 
-h2 {
+header > h2 {
     color: white;
     text-align: center;
     font-size: 1.3em;
     padding-top: 30px;
 }
 
-.section2 {
+.divs-sec2 {
     display: flex;
+    flex: 1;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 1.5rem;
+    margin-bottom: 120px;
+
 }
 
-.section2 > div {
-    flex: 1;
+img {
+    width: 130px;
+    margin-top: 2em;
+}
+
+.section2 > p {
+    text-align: center;
+}
+
+.h2-sec2 {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 25%; 
+    padding-top: 50px;
+    padding-bottom: .3rem;
+    border-bottom: 4px solid #00B172;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.h3-sec2 {
+    color: #00B172;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    font-size: 1.5em;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    padding: 1.5rem;
+    background-color: #00B172;
+    margin: 40px;
+    color: white;
+}
+
+.divs-sec3 {
+    display: block;
+    justify-content: space-around;
+    text-align: left;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin-left: 40px;
+}
+
+.padding {
+    margin-top: 25px;
+}
+
+.h2-sec3 {
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 100%; 
+    padding-top: 50px;
+    padding-bottom: .3rem;
+    border-bottom: 4px solid #ffffff;
+    font-size: 2rem;
+}
+
+.logo-white {
+    padding-top: 15rem;
+    padding-right: 5rem;
+    
+}
+
+.spotify-app {
+    width: 20em;
+    padding: 1.5rem;
+    justify-content: space-between;
 }
