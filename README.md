@@ -22,13 +22,14 @@ All of the necessary assets and images are included in the `starter-code`folder.
 ### Submission
 
 Upon completion, run the following commands:
+
 ```
 $ git add .
 $ git commit -m "done"
 $ git push origin master
 ```
-Create Pull Request so your TAs can check up your work.
 
+Create Pull Request so your TAs can check up your work.
 
 ### Instructions
 
@@ -36,7 +37,7 @@ The starting files are included in the `starter-code` directory. Write your HTML
 
 ### Steps
 
-The page is split into 4 sections. 
+The page is split into 4 sections.
 
 #### Navbar
 

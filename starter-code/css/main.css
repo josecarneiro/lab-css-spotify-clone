@@ -1,8 +1,155 @@
-/*
-Colors:
+* {
+  box-sizing: border-box;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+body {
+  font-family: "Cabin", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+}
 
-*/
+header {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.nav_bar_ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_bar_ul a {
+  color: #1a1a1a;
+  text-decoration: none;
+  padding: 0 20px;
+}
+
+.spotify-logo {
+  width: 200px;
+  margin-right: 1rem;
+}
+
+.main_advertising {
+  background-image: url("/Users/elenizoump/ironhack/labs/lab-css-spotify-clone/starter-code/images/landing.jpg");
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main_advertising h1 {
+  color: #FFF;
+  font-size: 5rem;
+  padding-bottom: 2.5rem;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.main_advertising h2 {
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 2.5rem;
+  max-width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.spotify_content img {
+  height: 5.5rem;
+}
+
+.content_sections {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.content_sections article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 6rem;
+}
+
+.content_sections h3 {
+  color: #00B172;
+}
+
+.content_sections p {
+  padding: 2rem;
+}
+
+.spotify_content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.spotify_content h2 {
+  border-bottom-style: solid;
+  border-bottom-color: #00B172;
+}
+
+
+
+.how_to_use h2 {
+  border-bottom-style: solid;
+  border-bottom-color: #FFF;
+}
+
+.how_to_use {
+  background-image: url("/Users/elenizoump/ironhack/labs/lab-css-spotify-clone/starter-code/images/spotify-icon-white.png");
+  background-size: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #00B172;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #FFF;
+  padding: 1rem 4rem;
+}
+
+.how_to_use_text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-right: 24rem;
+  margin-left: 4rem;
+}
+
+.how_to_use img {
+  height: 35rem;
+  width: auto;
+  margin-left: 12rem;
+  margin-right: 4rem;
+}
