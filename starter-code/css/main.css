@@ -6,3 +6,201 @@ Green: #00B172
 White: #FFF
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+* {
+    font-family: 'Cabin', sans-serif;
+    background: #FFF;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    padding: 10px 0;
+}
+
+header > div {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+nav {
+    width: 50%;
+    
+}
+  
+div  img {
+    width: 200px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+  
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#everyone {
+    background-image: url("../images/landing.jpg");
+    background-position: 0 0;
+    background-size: contain;
+    height: 650px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1{
+    font-size: 6em;
+    background: none;
+    text-align: center;
+    color: white;
+    margin : 0;
+}
+
+#everyone p {
+    text-align: center;
+    background: none;
+    color: white;
+    font-size: 2em;
+}
+
+#whatsOn h2 {
+    font-size: 3em;
+    text-align: center
+
+}
+
+#whatsOn img{
+    width: 100px;
+    align-content: center;
+      
+}
+
+#whatsOn > div {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: stretch;
+    text-align: left;
+    margin-top: 20px;
+    height: 400px;
+}
+
+#whatsOn > div > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    width: 250px;
+    padding: 10px;
+    height: 350px;
+} 
+
+#whatsOn hr {
+    width: 33%;
+    margin-top: -30px;
+    border: none;
+    border: 2px solid;
+    color:  #00B172;
+    
+}
+
+#whatsOn p{
+    font-size: 20px;
+    text-align: center; 
+}
+
+#whatsOn h3 {
+    font-size: 30px;
+    color: #00B172;
+    text-align: center;
+}
+
+#kanye > div {
+    background-color: #00B172;
+    height: 35rem;
+    margin: 1.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 1em;
+
+}
+
+.text {
+    width : 40%;
+    margin-top: 2em;
+    margin-left: 4em;
+    background-color: #00B172;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#kanye div div h3{
+    color: #FFF;
+    background-color: #00B172;
+    font-size: 1.5em
+
+}
+
+#kanye div div h2{
+    color: #FFF;
+    background-color: #00B172;
+    font-size: 2em;
+
+}
+
+#kanye div div p{
+    color: #FFF;
+    background-color: #00B172;
+    padding-right: 6em;
+    margin: 0;
+
+}
+
+
+#kanye hr {
+    width: 80%;
+    align-items: flex-start;
+}
+
+.app {
+    background-color:  #00B172;
+    margin: 3em;
+}
+
+.whitel{
+    background-color:  #00B172;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+
+}
+
+.whitel img{
+    width: 7em;
+}
+
+.app img{
+    width: 15em;
+    margin-top: 20%;
+}
